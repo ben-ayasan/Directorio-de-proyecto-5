@@ -6,9 +6,9 @@ car_data = pd.read_csv('vehicles_us.csv')  # leer los datos
 # crear un botón
 
 st.header('Informacion de kilometraje de vehiculos')
-if hist_button:
 
-    build_histogram = st.checkbox('Construir un histograma')
+
+build_histogram = st.checkbox('Construir un histograma')
 # al hacer clic en el botón
 build_scatter = st.checkbox('Construir un diagrama de dispersión')
 # escribir un mensaje
